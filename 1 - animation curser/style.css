@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height : 100vh;
+}
+
+.containerOne {
+    height : 100%;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.containerOne span {
+    background: url(https://cdn-icons-png.magnific.com/512/8530/8530547.png);
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: animition 6s linear;
+}
+
+@keyframes animition {
+    0% {
+        transform: translate(-50%,-50%);
+        opacity: 1;
+        filter: grayscale(0.5);
+    }
+    100% {
+        transform: translate(-50%,-5000%);
+        opacity: 0;
+        filter: grayscale(0.9);
+    }
+}
