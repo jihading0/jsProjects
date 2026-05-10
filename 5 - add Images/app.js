@@ -11,14 +11,12 @@ btn.addEventListener("click", () => {
 function addNew() {
     
     let imgs = document.createElement("img");
-    imgs.src = `https://picsum.photos/200/300?random=${Math.floor(Math.random() * 100)}`;
+    imgs.src = `...${Math.floor(Math.random() * 100)}`;
 
     container.append(imgs);
 
 }
 
 btnAdd.addEventListener("click", () => {
-    for(let i = 0; i < 10 ; i++) {
-        addNew();
-    }
+        addNew();    
 })
