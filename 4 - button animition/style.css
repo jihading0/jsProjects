@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height : 100vh;
+    font-weight: 800;
+}
+.containerOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height : 100%;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+.containerOne button{
+    border: 1px solid #000;
+    border-radius: 50px !important;
+    font-size: 1em;
+    width: 15rem;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bolder;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    overflow: hidden;
+    filter: hue-rotate(0.5);
+
+}
+.containerOne button::before {
+    content: "";
+    position: absolute;
+    /* التعديل هنا: ربط x بـ left و y بـ top */
+    left: var(--xPos);
+    top: var(--yPos);
+    
+    width: 0;
+    height: 0;
+    
+    border-radius: 50%; /* لجعل التأثير دائرياً */
+    transform: translate(-50%, -50%);
+    transition: width 0.5s, height 0.5s;
+
+}
+
+.containerOne button:hover::before {
+    background-color : rgb(25, 25, 25);
+    color : #fff;
+    opacity: .5;
+    width: 300px;
+    height: 300px;
+    transform-origin: (5px , 0) ;
+}
+
