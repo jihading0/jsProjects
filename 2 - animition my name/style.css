@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    height : 100vh;
+    font-weight: 800;
+}
+
+.containerOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 100%;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+.containerOne h1{
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bolder;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    overflow: hidden;
+}
+
