@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height : 100vh;
+    font-weight: 800;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+body.dark-mode {
+    background-color: #000000;
+    color: white;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+body.dark-mode .card {
+    border-color: #444;
+    background-color: #040404;
+}
