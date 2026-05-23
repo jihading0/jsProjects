@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+:root {
+  --main-color: rgba(37, 99, 235, 1);
+  --black-color: rgb(0, 0, 0);
+  --blue-gray: rgba(71, 85, 105, 1);
+  --white: rgba(255, 255, 255, 1);
+  --gray: rgba(241, 245, 249, 1);
+}
+::selection {
+  background-color: #fff;
+  color: #000;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.copy-icon {
+  cursor: pointer;
+}
+.active.alert {
+  display: none ;
+}
