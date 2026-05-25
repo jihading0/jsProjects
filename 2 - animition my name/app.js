@@ -1,27 +1,28 @@
-const cont = document.querySelector(".containerOne");
+const tech = document.querySelector(".tech");
 
-let names = ["shafiq","ahmed" ,"soker"];
+const arr = ['html' , 'css' , 'js' , 'bootstrap', 'git' , 'github'];
 
-let index = 0;
-let cindex = 0;
+let charArr = 0;
+let carerIndex = 0;
 
-updateText()
+update();
 
-function updateText() {
+function update() {
 
-    cindex++;
+    tech.innerHTML = 
+    `<span class="text-bg-danger px-2 rounded-2">${arr[carerIndex].slice(0,charArr)}</span>`;
 
-    cont.innerHTML = `<h1>Mohamed hassan ${names[index].slice(0,cindex)}</h1>`
-
-    if(cindex === names[index].length){
-        index++;
-        cindex = 0;
+    charArr++;
+    
+    if(charArr === arr[carerIndex].length + 1 ){
+        carerIndex++;
+        charArr = 0;
+    }
+    if(arr.length === carerIndex){
+        carerIndex = 0;
     }
 
-    if (index === names.length) {
-        index = 0;
-    }
-        
-    setTimeout(updateText,500);
+    setTimeout(update , 400);
 
+    return 0;
 }

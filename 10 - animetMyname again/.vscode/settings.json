@@ -1,7 +1,0 @@
-{
-    "liveServer.settings.port": 5501,
-    "js/ts.implicitProjectConfig.experimentalDecorators": true,
-    "notebook.defaultFormatter": "vscode.typescript-language-features",
-    "js/ts.tsserver.web.projectWideIntellisense.suppressSemanticErrors": true,
-    "npm-intellisense.packageSubfoldersIntellisense": true
-}
