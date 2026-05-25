@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="vh-100 d-flex justify-content-center align-items-center">
+
+    
+
+    <div class="calc bg-black text-white p-5 w-auto rounded-3 w-75">
+
+        <div class="row g-1 ">
+
+            <input type="text" class="form-control output" disabled value="" placeholder="">
+
+            <div class="col-3">
+                <div class="d-flex flex-column gap-1">
+                    <button class="btn btn-danger clear">c</button>
+                    <button class="btn btn-light">7</button>
+                    <button class="btn btn-light">4</button>
+                    <button class="btn btn-light" value="1">1</button>
+                    <button class="btn btn-light">0</button>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="d-flex flex-column gap-1">
+                    <button class="btn btn-primary opretor">/</button>
+                    <button class="btn btn-light">8</button>
+                    <button class="btn btn-light">5</button>
+                    <button class="btn btn-light">2</button>
+                    <button class="btn btn-light dot">.</button>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="d-flex flex-column gap-1">
+                    <button class="btn btn-primary opretor">*</button>
+                    <button class="btn btn-light">9</button>
+                    <button class="btn btn-light">6</button>
+                    <button class="btn btn-light">3</button>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="d-flex flex-column gap-1 h-100">
+                    <button class="btn btn-primary opretor">-</button>
+                    <button class="btn btn-primary opretor">+</button>
+                    <button class="btn btn-primary flex-grow-1 equal">=</button>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="js/bootstrap.bundle.min.js.map"></script> -->
+</body>
+</html>
