@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+:root {
+  --main-color: rgba(37, 99, 235, 1);
+  --black-color: rgb(0, 0, 0);
+  --blue-gray: rgba(71, 85, 105, 1);
+  --white: rgba(255, 255, 255, 1);
+  --gray: rgba(241, 245, 249, 1);
+}
+::selection {
+  background-color: #fff;
+  color: #000;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+body::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100dvh;
+  background-color: #00000061;
+  backdrop-filter: blur(5px);
+}
+
+.card {
+
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.15),rgba(250, 250, 250,0.15));
+}
