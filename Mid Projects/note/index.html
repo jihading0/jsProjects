@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/all.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <body class="bg-light p-1">
+
+
+        <div class="container col-md-6  mx-auto bg-white p-5 border rounded-2 my-3">
+
+            <div class="d-flex align-items- gap-3 mb-3">
+                <p class="w-25 p-0 m-0"><samp>Type Your Note<br />Address :</samp></p>
+                <input type="text" id="noteAddress" class="form-control fs-4 text-uppercase font-monospace">
+            </div>
+            <textarea id="note" class="form-control" rows="8"></textarea>
+            <button class="btn my-3 btn-outline-warning border text-muted" id="btnNote" onclick="addNote()">Add Your Note</button>
+
+            <div id="output">
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="bootstrap.bundle.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+
+</html>
