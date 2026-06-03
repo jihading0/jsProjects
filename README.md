@@ -2,7 +2,10 @@
 JSprojects-root/
 │
 ├── .gitignore
+├── README.md
+│
 ├── Simple Projects/
+│   │
 │   ├── Random Password/
 │   ├── add Images/
 │   ├── animation curser/
@@ -15,7 +18,9 @@ JSprojects-root/
 │   ├── darkTheme 2/
 │   ├── mini calendar/
 │   └── stopWatch/
+│
 └── Medium Projects/
+    │
     ├── BookMark/
     ├── JS cruds/
     ├── TASKS with Search/
