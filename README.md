@@ -28,7 +28,7 @@ JSprojects-root/
     ├── Weather app/
     ├── calc/
     ├── cruds -youtuber mohamedGamal/
-    ├── login - not complete/
+    ├── login/
     ├── note/
     └── to do list/
 ```
